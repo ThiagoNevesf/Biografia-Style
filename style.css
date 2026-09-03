@@ -1,0 +1,95 @@
+/*
+| HEX     | Uso                        |
+| ------- | -------------------------- |
+| #DCCAB4 | Cor de Fundo Body          |
+| #F0DFCD | Cor do conteudo body       |
+| #352115 | Cor fundo, destaque, cabec |
+| #B69A79 | título principal           |
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@500;600&family=Playfair+Display:ital,wght@1,400&display=swap');
+
+body {
+    background-color: #DCCAB4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #352115;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0px;
+    
+}
+main {
+    background-color: #F0DFCD;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    border-radius: 10px 10px;
+}
+footer {
+    text-align: center;
+    background-color: #352115;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px
+}
+.header-title {
+    color: #B69A79;
+    font-family: "Cinzel", sans-serif;
+    padding: 1px 10px;
+}
+.header-nav {
+    text-align: right;
+    margin-bottom: 15px;
+    
+}
+.header-nav a {
+    color: #B69A79;
+    font-family: sans-serif;
+    font-size: 0.80rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+main {
+    text-align: justify;
+}
+main h2 {
+    text-align: center;
+}
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px
+}
+.tabela {
+    grid-column: span 2;
+}
+.tabela th {
+    background-color: #352115;
+    color: #F0DFCD;
+    text-align: center;
+    border: 0px;
+}
+
+.imagem {
+    text-align: center;    
+    padding: 10px;
+    margin: 10px;
+}
+.feedback h3{
+    color: #B69A79;
+    font-family: "Cinzel", sans-serif;
+    margin: 0;
+}
+.feedback h4 {
+    color: #B69A79;
+    font-family: "Cinzel", sans-serif;
+    margin: 0 0 20px;
+}
+.feedback form{
+    color: #B69A79;
+}
+.alunos {
+    color: white;
+}
